@@ -1,6 +1,6 @@
-import Card from '../UI/Card';
+import Card from '../UI/Card'
 
-import classes from './UsersList.module.css';
+import classes from './UsersList.module.css'
 
 const UsersList = props => {
   return (
@@ -13,7 +13,7 @@ const UsersList = props => {
         ))}
       </ul>
     </Card>
-  );
-};
+  )
+}
 
-export default UsersList;
+export default UsersList
